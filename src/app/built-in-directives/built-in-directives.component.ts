@@ -27,6 +27,16 @@ export class BuiltInDirectivesComponent implements OnInit {
   };
 
   name: string = '';
+
+  showContent = true;
+  items = [
+    {
+      name: 'Shakib'
+    },
+    {
+      name: 'Shakil'
+    }
+  ];
   constructor() {}
 
   ngOnInit() {}

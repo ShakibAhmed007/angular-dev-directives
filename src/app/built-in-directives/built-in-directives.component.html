@@ -10,3 +10,7 @@
 <input [(ngModel)]="name" id="example-ngModel" />
 <br/>
 <p>Entered Value : {{name}}</p>
+<br/>
+<div *ngIf="showContent"> Using *ngIf showcontent is ({{showContent}})</div>
+<br/>
+<div *ngFor="let item of items ; let i=index">Index: {{i + 1}} - {{item.name}}</div>
