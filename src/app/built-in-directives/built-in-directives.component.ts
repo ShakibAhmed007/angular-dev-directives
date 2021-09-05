@@ -8,6 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class BuiltInDirectivesComponent implements OnInit {
   isSpecial = false;
 
+  /**
+   * This will add three class to div
+   */
+  currentClasses = {
+    saveable: true, // bold
+    modified: true, // italic
+    special: true // background
+  };
+
   constructor() {}
 
   ngOnInit() {}

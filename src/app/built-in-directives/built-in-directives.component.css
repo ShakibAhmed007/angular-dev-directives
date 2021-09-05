@@ -5,3 +5,11 @@
 .normal {
   background-color: cyan;
 }
+
+.saveable {
+  font-weight: bold;
+}
+
+.modified {
+  font-style: italic;
+}
