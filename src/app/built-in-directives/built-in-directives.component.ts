@@ -17,6 +17,12 @@ export class BuiltInDirectivesComponent implements OnInit {
     special: true // background
   };
 
+  currentStyles = {
+    'font-style': true ? 'italic' : 'normal',
+    'font-weight': true ? 'bold' : 'normal',
+    'font-size': true ? '24px' : '12px'
+  };
+
   constructor() {}
 
   ngOnInit() {}
