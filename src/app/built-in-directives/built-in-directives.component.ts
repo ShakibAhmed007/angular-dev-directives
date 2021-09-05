@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./built-in-directives.component.css']
 })
 export class BuiltInDirectivesComponent implements OnInit {
-  isSpecial = true;
+  isSpecial = false;
 
   constructor() {}
 
