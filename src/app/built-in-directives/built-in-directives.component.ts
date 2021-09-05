@@ -26,6 +26,7 @@ export class BuiltInDirectivesComponent implements OnInit {
     'font-size': true ? '24px' : '12px'
   };
 
+  name: string = '';
   constructor() {}
 
   ngOnInit() {}
