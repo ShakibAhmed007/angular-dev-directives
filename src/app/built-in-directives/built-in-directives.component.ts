@@ -39,6 +39,9 @@ export class BuiltInDirectivesComponent implements OnInit {
       name: 'Shakil'
     }
   ];
+
+  conditionalData = 'https';
+
   constructor() {}
 
   ngOnInit() {}

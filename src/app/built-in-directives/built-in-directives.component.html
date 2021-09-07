@@ -21,3 +21,9 @@
 <br/>
 <div *ngFor="let item of items ; let i=index; trackBy: trackByItems">Index: {{i}} - Id: {{item.id}} - {{item.name}}
 </div>
+<br/>
+<div [ngSwitch]="conditionalData">
+  <p *ngSwitchCase="'http'">Using NgSwitch Render From Http</p>
+  <p *ngSwitchCase="'https'">Using NgSwitch Render From Https</p>
+  <p *ngSwitchDefault="'http'">Using NgSwitch Default Value</p>
+</div>
