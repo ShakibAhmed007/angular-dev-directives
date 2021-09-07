@@ -8,6 +8,7 @@ import { BuiltInDirectivesComponent } from './built-in-directives/built-in-direc
 import { MatTabsModule } from '@angular/material/tabs';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HighlightDirective } from './highlight.directive';
+import { CustomAttributeDirectiveExampleComponent } from './custom-attribute-directive-example/custom-attribute-directive-example.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, MatTabsModule, BrowserAnimationsModule],
@@ -15,6 +16,7 @@ import { HighlightDirective } from './highlight.directive';
     AppComponent,
     HelloComponent,
     BuiltInDirectivesComponent,
+    CustomAttributeDirectiveExampleComponent,
     HighlightDirective
   ],
   bootstrap: [AppComponent]
