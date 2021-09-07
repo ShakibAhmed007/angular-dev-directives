@@ -6,10 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./custom-attribute-directive-example.component.css']
 })
 export class CustomAttributeDirectiveExampleComponent implements OnInit {
+  color = 'red';
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
