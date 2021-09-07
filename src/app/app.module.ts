@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { BuiltInDirectivesComponent } from './built-in-directives/built-in-directives.component';
 import {MatTabsModule} from '@angular/material/tabs';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, MatTabsModule],
+  imports: [BrowserModule, FormsModule, MatTabsModule, BrowserAnimationsModule],
   declarations: [AppComponent, HelloComponent, BuiltInDirectivesComponent],
   bootstrap: [AppComponent]
 })

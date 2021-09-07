@@ -40,7 +40,7 @@ export class BuiltInDirectivesComponent implements OnInit {
     }
   ];
 
-  conditionalData = 'https';
+  conditionalData = '';
 
   constructor() {}
 
