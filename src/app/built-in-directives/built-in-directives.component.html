@@ -12,6 +12,12 @@
 <p>Entered Value : {{name}}</p>
 <br/>
 <div *ngIf="showContent"> Using *ngIf showcontent is ({{showContent}})</div>
+<p>
+  Using *ngIf Without any dom element
+  <ng-container *ngIf="showContent">
+    ({{showContent}})
+  </ng-container>
+</p>
 <br/>
 <div *ngFor="let item of items ; let i=index; trackBy: trackByItems">Index: {{i}} - Id: {{item.id}} - {{item.name}}
 </div>
