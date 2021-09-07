@@ -31,13 +31,19 @@ export class BuiltInDirectivesComponent implements OnInit {
   showContent = true;
   items = [
     {
+      id: 1,
       name: 'Shakib'
     },
     {
+      id: 2,
       name: 'Shakil'
     }
   ];
   constructor() {}
 
   ngOnInit() {}
+
+  trackByItems(index: number, item: any): number {
+    return item.id;
+  }
 }
